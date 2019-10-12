@@ -1,23 +1,50 @@
 $font-stack:    Helvetica, sans-serif
 $primary-color: #333
 
+html
+  width:100%
+
 body
   font: 100% $font-stack
   color: $primary-color
+  
 
 
 nav 
   ul 
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    margin: 0
+    padding: 0
+    list-style: none
   
 
   li  
-    display: inline-block; 
+    display: inline-block 
 
   a 
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
+    display: block
+    padding: 6px 12px
+    text-decoration: none
+
+
+
+#hc 
+  font-size: 18px
+  ol 
+    padding-left: 2.2em
+    overflow: hidden
+    color: red
+    font-weight: bold 
+    font-size: 14px
+
+  ul 
+      font-family: sans-serif
+      padding-left: 2.2em
+      overflow: hidden
+  
+@media screen and (max-width: 500px)
+  #disa 
+    display: none
+    
+    
+
 

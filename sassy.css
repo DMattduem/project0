@@ -1,3 +1,7 @@
+html {
+  width: 100%;
+}
+
 body {
   font: 100% Helvetica, sans-serif;
   color: #333;
@@ -8,14 +12,35 @@ nav ul {
   padding: 0;
   list-style: none;
 }
-
 nav li {
   display: inline-block;
 }
-
 nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
 }
+
+#hc {
+  font-size: 18px;
+}
+#hc ol {
+  padding-left: 2.2em;
+  overflow: hidden;
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+#hc ul {
+  font-family: sans-serif;
+  padding-left: 2.2em;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  #disa {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=sassy.css.map */
