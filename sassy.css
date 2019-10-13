@@ -42,5 +42,30 @@ nav a {
     display: none;
   }
 }
+.upper {
+  margin: 30px;
+  width: 300px;
+  height: 80px;
+  border: 1px red solid;
+  padding: 5px;
+}
+.upper > div {
+  flex: 1 1 auto;
+  border: 1px red solid;
+  margin: 5px;
+}
+.upper.mc {
+  width: 200px;
+  height: 200px;
+}
+.specificMessage {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.specificMessage {
+  background-color: grey;
+}
 
 /*# sourceMappingURL=sassy.css.map */
